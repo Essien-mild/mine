@@ -892,7 +892,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1400px) {
+
   .dashboard-container {
     grid-template-columns: 1fr;
   }
@@ -909,7 +909,7 @@ body {
     width: 280px;
     height: 170px;
   }
-}
+
 
 @media (max-width: 900px) {
   .sidebar {
