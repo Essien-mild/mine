@@ -1016,6 +1016,10 @@ body {
     margin-right: 220px;
     filter: blur(4px)
   }
+  .main-content {
+    padding: 10px;
+    width: 80%;
+  }
 
   .transfer-cards {
     grid-template-columns: 1fr;
@@ -1047,14 +1051,15 @@ body {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 405px) {
   .sidebar {
     width: 80%;
   }
 
   .main-content {
-    padding: 15px;
+    padding: 10px;
     padding-top: calc(var(--header-height) + 15px);
+    width: 80%;
   }
 
   .main-content.sidebar-active {
@@ -1129,5 +1134,10 @@ body {
 
   .savings-amount {
     font-size: 28px;
+  }
+}
+@media (max-width : 350px) {
+  body{
+    width: 100%;
   }
 }
